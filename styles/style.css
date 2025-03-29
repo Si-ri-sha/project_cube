@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'New Rail Alphabet';
+  src: url('fonts/NewRailAlphabet.woff2') format('woff2'),
+       url('fonts/NewRailAlphabet.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Apply the font to the whole body */
+body {
+  font-family: 'New Rail Alphabet', sans-serif;
+}
