@@ -1,52 +1,271 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Alcami Cube Assignment</title>
-    <meta charset="utf-8" />
-    <meta name="view-port" content="width=device-width, initial-scale=1.0" />
-
-    <script
-      src="https://kit.fontawesome.com/199ef1522f.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/header.css" />
+    <title>Alcami - Home Page</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
   </head>
-
   <body>
-    <div class="announcement-bar">
-      <button class="announcement-btn">
-        Get 25% off your first month. Free Shipping on U.S orders.
-      </button>
-    </div>
-
-    <header class="header">
-      <div class="conatiner">
-        <div class="brand-name">ALCAMI</div>
-      </div>
-
-      <nav class="nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li class="dropdown">
-            <a href="#">Shop</a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Category 1</a></li>
-              <li><a href="#">Category 2</a></li>
-            </ul>
-          </li>
-          <li><a href="#"></a>Elements</li>
-          <li><a href="#"></a>about Us</li>
-          <li><a href="#"></a>Blog</li>
-          <li><a href="#"></a>Contact</li>
-        </ul>
-      </nav>
-
-      <div>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <button>Try Alcami &rarr;</button>
+    <section class="banner">
+      Get 25% off your first month. Free Shipping on U.S orders.
+    </section>
+    <header>
+      <img src="assets/images/brand-logo.svg" alt="Alcami Logo" />
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Shop</a></li>
+        <li><a href="index.html">Elemets</a></li>
+        <li><a href="products.html">About Us</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="products.html">Contact</a></li>
+      </ul>
+      <!-- <input
+        id="search-bar"
+        type="text"
+        placeholder="Search For Products..."
+        class="search-bar"
+      /> -->
+      <div class="header-actions">
+        <button id="search" type="button" class="search">
+          <img src="assets/images/search-icon.svg" alt="Search" />
+        </button>
+        <button id="try-alcami" type="button" class="try-alcami primary-cta">
+          <span>Try Alcami</span>
+          <img src="./assets/images/arrow-right-icon.svg" alt="Try Alcami" />
+        </button>
       </div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="hero-info">
+          <div class="hero-title">
+            <p class="highlight">
+              <span class="rating">
+                <img
+                  src="./assets/images/star-filled-icon.svg"
+                  alt="star filled icon"
+                />
+                4.8 star rating
+              </span>
+              awarded the top adaptogen blend in the world
+            </p>
+            <h3>Achieve your highest self.</h3>
+          </div>
+          <div class="stats-content">
+            <div class="stats">
+              <span>10x</span>
+              <label> concentration </label>
+            </div>
+            <div class="stats">
+              <span>9</span>
+              <label>
+                powerful <br />
+                ingredients
+              </label>
+            </div>
+            <div class="stats">
+              <p>
+                <span>1000</span>
+                mg
+              </p>
+              <label>
+                of Adaptogens<br />
+                per dose
+              </label>
+            </div>
+          </div>
+          <button id="shop-now" type="button" class="shop-now primary-cta">
+            <span>Shop now</span>
+            <img src="./assets/images/arrow-right-icon.svg" alt="Shop Now" />
+          </button>
+        </div>
+        <img src="assets/images/hero-image.png" alt="Hero Image" />
+      </section>
+      <section class="moto-content">
+        <div class="moto">
+          <p class="moto-title">Incredible Taste and Effects You Can Feel</p>
+        </div>
+      </section>
+      <section class="powerful-elements">
+        <img
+          src="assets/images/powerful-elements.png"
+          alt="Powerful Elements"
+        />
+        <div class="details">
+          <span class="subtitle"> 9 POWERFUL ELEMENTS </span>
+          <div class="title">
+            <h4>All of the Best Ingredients, None of the Compromise</h4>
+            <p>
+              Alcami uses <span class="bold">x10 potency</span> in every
+              serving, formulated for maximum absorption to ensure your body
+              gets the most out of every scoop.
+            </p>
+          </div>
+          <button
+            id="view-full-ingredients"
+            type="button"
+            class="view-full-ingredients primary-cta"
+          >
+            <span>View full ingredients</span>
+            <img src="./assets/images/arrow-right-icon.svg" alt="Shop Now" />
+          </button>
+        </div>
+      </section>
+      <section class="our-guarantee">
+        <span> Our Guarantee </span>
+        <div class="guarantee-services">
+          <div class="each-guarantee-service">
+            <img
+              src="assets/images/heart-icon.svg"
+              alt="30-day Guarantee Icon"
+            />
+            <div class="each-guarantee-service-detail">
+              <h5>30-day Guarantee</h5>
+              <p>Love Alcami or send it back</p>
+            </div>
+          </div>
+          <div class="each-guarantee-service">
+            <img
+              src="assets/images/worldwide-shipping-icon.svg"
+              alt="Worldwide Shipping Icon"
+            />
+            <div class="each-guarantee-service-detail">
+              <h5>Worldwide Shipping</h5>
+              <p>Alcami ships everywhere</p>
+            </div>
+          </div>
+          <div class="each-guarantee-service">
+            <img
+              src="assets/images/fast-delivery-icon.svg"
+              alt="Fast Delivery Icon"
+            />
+            <div class="each-guarantee-service-detail">
+              <h5>Fast Delivery</h5>
+              <p>On time quick shipping</p>
+            </div>
+          </div>
+          <div class="each-guarantee-service">
+            <img
+              src="assets/images/eco-certified-icon.svg"
+              alt="Eco Certified Icon"
+            />
+            <div class="each-guarantee-service-detail">
+              <h5>Eco Certified</h5>
+              <p>Carbon neutral eco packaging</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="companies">
+          <span class="bold">AS SEEN IN</span>
+          <div class="companies-logos">
+            <img src="assets/images/forbes-logo.png" alt="Forbes Logo" />
+            <img
+              src="assets/images/fast-company-logo.png"
+              alt="Fast Company Logo"
+            />
+            <img src="assets/images/goop-logo.png" alt="Goop Logo" />
+            <img src="assets/images/time-logo.png" alt="Time Logo" />
+            <img
+              src="assets/images/the-new-york-times-logo.png"
+              alt="The New York Times Logo"
+            />
+          </div>
+        </div>
+        <div class="products-container">
+          <div class="product-preview"></div>
+          <div class="product-details-container">
+            <div></div>
+            <div class="product-details">
+              <div class="product-details-info">
+                <h3 class="title">Alcami Elements</h3>
+                <div class="rating">
+                  <div>Rating component</div>
+                  <span>4.8</span>
+                  <span>(999+ reviews)</span>
+                </div>
+              </div>
+              <p>
+                Discover the ancient wisdom supported by modern science, all
+                within the synergy of Alcami Elements. Designed for those who
+                aspire to elevate every facet of life with awareness and
+                intention.
+              </p>
+            </div>
+            <div class="flavors-container">
+              <h4>Choose a flavor</h4>
+
+              <div class="radio-group flavors">
+                <label
+                  for="original-alcami"
+                  class="radio-container each-flavor"
+                >
+                  <div class="radio-input-container">
+                    <input
+                      type="radio"
+                      id="original-alcami"
+                      name="custom-radio"
+                      class="radio-input"
+                    />
+                    <span>Original</span>
+                  </div>
+                  <img
+                    src="assets/images/original-alcami.png"
+                    alt="Original Alcami"
+                  /><span class="flavor-banner">BEST-SELLER</span>
+                </label>
+                <label for="matcha-alcami" class="radio-container each-flavor">
+                  <div class="radio-input-container">
+                    <input
+                      type="radio"
+                      id="matcha-alcami"
+                      name="custom-radio"
+                      class="radio-input"
+                    />
+                    <span>Matcha</span>
+                  </div>
+                  <img
+                    src="assets/images/matcha-alcami.png"
+                    alt="Matcha Alcami"
+                  />
+                </label>
+                <label for="cacao-alcami" class="radio-container each-flavor">
+                  <div class="radio-input-container">
+                    <input
+                      type="radio"
+                      id="cacao-alcami"
+                      name="custom-radio"
+                      class="radio-input"
+                    />
+                    <span>Cacao</span>
+                  </div>
+                  <img
+                    src="assets/images/cacao-alcami.png"
+                    alt="Cacao Alcami"
+                  />
+                </label>
+              </div>
+            </div>
+            <div class="subscriptions">
+              <div class="each-subscription">
+                <div class="most-popular-banner">Most Popular</div>
+                <div>Radio and Details</div>
+              </div>
+            </div>
+            <button
+              id="add-to-cart"
+              type="button"
+              class="add-to-cart secondary-cta"
+            >
+              <span>Add to Cart</span>
+              <img
+                src="./assets/images/arrow-right-icon.svg"
+                alt="Add to Cart"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
