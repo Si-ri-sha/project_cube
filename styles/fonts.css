@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "NewRailAlphabet";
+  src: url("fonts/NewRailAlphabet-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NewRailAlphabet";
+  src: url("fonts/NewRailAlphabet-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NewRailAlphabet";
+  src: url("fonts/NewRailAlphabet-White.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.bold-text {
+  font-family: "NewRailAlphabet", sans-serif;
+  font-weight: bold;
+}
+
+.light-text {
+  font-family: "NewRailAlphabet", sans-serif;
+  font-weight: 300;
+}
+
+.white-text {
+  font-family: "NewRailAlphabet", sans-serif;
+  font-weight: 100;
+}
